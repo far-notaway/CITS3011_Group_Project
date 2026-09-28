@@ -2,16 +2,16 @@
 Standalone demo agent for New Technique 3 (Adaptive Threat Modelling).
 
 This is NOT the final submission agent - it exists so Technique 3 can be
-developed, run, and evaluated independently of whatever Person A (basic +
-technique 1) and the other new-technique owner build. It uses a minimal
+developed, run, and evaluated independently of whatever Nam (basic +
+technique 1) and Nathaniel build. It uses a minimal
 greedy-toward-nearest-target fallback for movement (deliberately simple,
 NOT the final basic technique - just enough scaffolding to see Technique 3
 change behaviour), so the ablation comparison below isolates the effect of
 threat-awareness rather than mixing it with someone else's improvements.
 
 Once the team's pieces exist, ThreatModel.get_normalised_threats(...) is
-meant to be called from wherever target-scoring happens (Person A's
-assignment step) and wherever defensive unit allocation happens (Person B's
+meant to be called from wherever target-scoring happens (Nam's
+assignment step) and wherever defensive unit allocation happens (Nathaniel's
 CSP step) - see the integration note at the bottom of this file.
 
 Usage:
